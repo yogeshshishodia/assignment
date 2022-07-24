@@ -1,0 +1,209 @@
+#header {
+	color: #fff;
+	background: rgb(47, 47, 47);
+}
+
+#searchDiv {
+	float: right;
+	padding: 10px 30px 0px 0px;
+}
+
+#searchText {
+	height: 25px;
+	width: 200px;
+	border-radius: 4px;
+	text-align: center;
+	font-size: medium;
+}
+
+#searchButton {
+	height: 31px;
+	width: 60px;
+	border-radius: 4px;
+	font-size: medium;
+}
+
+
+#menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+
+
+}
+
+#menu li {
+	display: inline-block;
+
+}
+
+#menu li a {
+	color: #fff;
+	padding: 15px 10px;
+	display: block;
+	text-decoration: none;
+}
+
+
+#menu .active {
+	background-color: #000;
+
+}
+
+#menu li a:hover {
+	background: #c0392b;
+}
+
+#banner {
+
+	background-color: #1bb403;
+}
+
+.banner-title {
+	padding-top: 0px;
+
+}
+
+.banner-title h1 {
+
+	display: inline-block;
+	padding: 10px;
+	color: #8ef92a;
+	font-size: -webkit-xxx-large;
+
+
+
+
+}
+
+.banner-title p.lead {
+	color: #8ef92a;
+	padding: 0px;
+	margin-left: 11px;
+
+}
+
+.sub-head {
+	padding-left: 487px;
+	margin-top: -39px;
+	font-size: 20px;
+	color: rgb(53, 53, 53);
+}
+
+
+
+
+
+.section-head {
+
+	text-decoration: none;
+	color: #000;
+	font-size: 3rem;
+}
+
+#searchDiv {
+	display: flex;
+}
+
+.form-control {
+	margin-right: 9px;
+	width: 70%;
+	margin-bottom: 5px;
+}
+
+#searchDiv button {
+	margin: 2px;
+	height: 35px;
+
+}
+
+.col-md-12 p {
+	color: rgb(32, 32, 32);
+	font-size: medium;
+	margin-bottom: 17px;
+	margin-top: 23px;
+}
+
+.body-post img {
+
+	width: 350px;
+	height: 400px;
+	margin-bottom: 20px;
+}
+
+.body-post h3 {
+	font-size: 1.35rem;
+}
+
+.body-post h3 a {
+	color: blue;
+	font-size: larger;
+	text-decoration: none;
+}
+
+.body-post p {
+	font-size: medium;
+	color: rgb(34, 34, 34);
+}
+
+#footer-sidebar {
+	color: black;
+	background: orange;
+	padding: 49px 0;
+}
+
+.footer-widget {
+	color: black;
+
+}
+
+
+#footer {
+	color: black;
+	background: white;
+	padding: 10px 0;
+}
+
+#footer .col-md-6 {
+	color: blue;
+}
+
+#footer p {
+	color: rgb(45, 44, 44);
+	margin-bottom: 15px;
+}
+
+@media (max-width: 992px) {
+	.body-post {
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	#menu {
+		text-align: center;
+	}
+
+	.banner-title {
+		padding-top: 0;
+	}
+
+	.banner-title h1 {
+		font-size: 1.7rem;
+	}
+	.sub-head{
+		text-align: center;
+	}
+
+	.footer-widget {
+		margin-bottom: 20px;
+	}
+
+	#footer {
+		text-align: center;
+	}
+
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM VALIDATION</title>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1 id="main_title">Request Routine Dental Appointment Form</h1>
+        </div>
+    </header>
+    <form id="appointment_form">
+        <div id="name">
+            <label>NAME</label><br>
+            <div id="f1">
+                <div id="fn">
+                    <input type="text" id="fname" placeholder="Enter Your First Name..."/>
+                </div>
+                <div id="ln">
+                    <input type="text" id="lname" placeholder="Enter Your Last Name..." />
+                </div>
+            </div> 
+        </div>
+        <div id="phone_number">
+            <label>PHONE NUMBER</label><br>
+            <div id="pn">
+                <input type="number" id="phone" maxlength="10" placeholder="Enter Phone number..."/>
+            </div>  
+        </div>
+        <div id="emailid">
+            <label>Email Id</label><br>
+            <div id="ei">
+                <input type="text" id="email" placeholder="Enter Your Email Id..."/>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="date_of_birth">
+            <label>Date of Birth</label><br>
+            <div id="db">
+                <input type="date" id="dob" />
+            </div>
+        </div>
+        <div id="date_of_appointment">
+            <label>Date of Appointment</label><br>
+            <div id="da">
+                <input type="date" id="doa" />
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="time_of_appointment">
+            <label>Time of Appointment</label><br>
+            <div id="ti">
+                <input type="time" id="toa" />
+            </div>
+        </div>
+        <div id="select_doctor">
+            <label for="doctor">Select Doctor </label><br>
+            <div id="selection">
+                <select name="doctor" id="doctor">
+                    <option value="default" selected disabled hidden>Select an Option</option>
+                    <option value="MD">MD</option>
+                    <option value="FH">FH</option>
+                    <option value="KL">KL</option>
+                    <option value="WP">WP</option>
+                    <option value="TT">TT</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="question1">
+            <p>Do you require Sental Surgery?</p>
+            <div id="q1y">
+                <input type="radio" id="yes1" name="q1" value="Yes"/>
+                <label for="yes1">Yes</label>
+            </div>
+            <div id="q1n">
+                <input type="radio" id="no1" name="q1" value="No"/>
+                <label for="no1">No</label>
+            </div>  
+        </div>
+        <div id="question2">
+            <p>Have you visited our Dental Clinic before?</p>
+            <div id="q2y">
+                <input type="radio" id="yes2" name="q2" value="Yes"/>
+                <label for="yes2">Yes</label>
+            </div>
+            <div id="q2n">
+                <input type="radio" id="no2" name="q2" value="No"/>
+                <label for="no2">No</label>
+            </div>   
+        </div>
+        <div id="question3">
+            <p>Have you experienced dental illness/surgeries in the past?</p>
+            <div id="q3y">
+                <input type="radio" id="yes3" name="q3" value="Yes"/>
+                <label for="yes3">Yes</label>
+            </div>
+            <div id="q3n">
+                <input type="radio" id="no3" name="q3" value="No"/>
+                <label for="no3">No</label>
+            </div>
+        </div>
+        <small></small>
+        <div id="sub">
+            <input type="submit" id="submitform" placeholder="Submit" value="Submit"/>
+        </div>
+        
+    </form>
+</body>
+<link href="./css/validation.css" rel="stylesheet"/>
+<script src="./js/validation.js"></script>
+</html>
